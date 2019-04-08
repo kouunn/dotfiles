@@ -195,7 +195,11 @@ bar
   i3bar_command i3bar -t
 	font pango: Awesome 20
 	#font pango: Source Code Pro for Powerline 11
-
+	
+	tray_output none                                                            
+        strip_workspace_numbers yes                                                 
+        verbose yes
+	
 	colors
 	{
                         # Border	# Background	# Text
